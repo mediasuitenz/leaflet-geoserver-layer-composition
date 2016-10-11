@@ -1,0 +1,16 @@
+{
+  "name": "geoproxy",
+  "version": "1.0.0",
+  "description": "Proxy requests to geoserver so we can access crossdomain",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "author": "Ersin Buckley",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-http-proxy": "^0.10.0",
+    "request": "^2.75.0"
+  }
+}

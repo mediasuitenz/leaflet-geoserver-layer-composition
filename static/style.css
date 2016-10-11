@@ -1,0 +1,10 @@
+#layer-input {
+  width: 100%;
+} 
+
+.controls{
+  width:100%;
+  top:0px;
+  z-index: 99;
+  position: absolute; 
+} 
