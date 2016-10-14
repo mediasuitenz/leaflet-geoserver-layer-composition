@@ -19,3 +19,6 @@ npm install
 node index.js
 ```
 
+# Deployment
+This is intended to be deployed as a static site. The express application only exists for development.
+At the moment it is hard coded to be under the `/demo` route on whatever server you are deploying on.

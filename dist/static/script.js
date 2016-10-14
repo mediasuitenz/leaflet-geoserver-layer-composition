@@ -52,7 +52,7 @@ loaded
   
   const loadButton = document.getElementById("loadButton")
 
-  const tileLayer = L.tileLayer.wms('http://localhost:3000/geoserver/wms', {
+  const tileLayer = L.tileLayer.wms('/geoserver/wms', {
     layers: getLayers(),
     format: 'image/png',
     attribution: 'Sourced from LINZ. CC-BY 3.0'
