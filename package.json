@@ -4,6 +4,8 @@
   "description": "Proxy requests to geoserver so we can access crossdomain",
   "main": "index.js",
   "scripts": {
+    "run" : "node index.js",
+    "build": "./scripts/build.sh",
     "test": "exit 1"
   },
   "author": "Ersin Buckley",
