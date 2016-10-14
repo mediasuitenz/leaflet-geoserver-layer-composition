@@ -9,10 +9,11 @@
   <body>
     <div id="controls">
       <select name="layer-options" id="layers-selection" multiple></select>
-      <input id="layer-input" type="hidden" name="layers" value=""> <br/>
+      <input id="layer-input" type="text" diabled=true name="layers" value=""> <br/>
       <button id="loadButton" type="button" name="button">Re Load tiles</button>
     </div>
     <div id="my-map" style="height:600px;"></div>
+    <script src="/static/proj4-src.js"></script>
     <script src="/static/leaflet-src.js"></script>
     <script src="/static/script.js"></script>
   </body>
